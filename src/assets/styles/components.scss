@@ -1,0 +1,31 @@
+.card {
+  width: 100%;
+  max-width: 20rem !important;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) 0px -5px 10px 0px rgba(0, 0, 0, 0.5) !important;
+
+  .card-content {
+    background-color: #1e1e1e !important;
+    color: #929292;
+  }
+}
+
+.image {
+  &.has-border-white {
+    border: 1px solid rgba(159, 159, 159, 0.23);
+  }
+  &.is-medium {
+    width: 30rem;
+  }
+}
+
+.is-contact-form {
+  position: relative;
+  top: -2rem;
+}
+
+.is-socials {
+  position: absolute;
+  top: 6rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

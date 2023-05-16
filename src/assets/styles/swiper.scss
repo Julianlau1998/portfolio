@@ -1,0 +1,50 @@
+:root {
+  --swiper-theme-color: hsl(229deg, 53%, 53%);
+}
+
+.swiper {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+  .swiper {
+    max-width: 40rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .swiper {
+    width: 100%;
+    max-width: 32rem;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    display: none !important;
+  }
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+
+  &.is-top {
+    top: 22rem !important;
+  }
+
+  &.is-top-auto {
+    top: auto !important;
+  }
+
+  @media (max-width: 1100px) {
+    &.is-top {
+      top: 18.5rem !important;
+    }
+  }
+}
+
+.swiper-button-next {
+  right: 30px;
+}
+
+.swiper-button-prev {
+  left: 30px;
+}
