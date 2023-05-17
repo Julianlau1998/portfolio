@@ -1,10 +1,10 @@
 <template>
   <div class="section is-flex is-flex-direction-column secondary">
-    <h1 class="header is-size-1 mb-5 mt-negative-6 mb-6">
+    <h1 class="header is-size-1 mb-5 mt-negative-5 mb-6">
       Projects
     </h1>
     <swiper
-        class="swiper"
+        class="swiper mb-6"
         :options="swiperOptions"
     >
       <swiper-slide

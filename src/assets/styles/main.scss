@@ -140,16 +140,19 @@ select {
 }
 
 .is-down-arrow {
-    position: absolute;
-    bottom: 3rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 2.2rem;
     -webkit-animation: color_change 1.5s infinite alternate;
     -moz-animation: color_change 1.5s infinite alternate;
     -ms-animation: color_change 1.5s infinite alternate;
     -o-animation: color_change 1.5s infinite alternate;
     animation: color_change 1.5s infinite alternate;
+
+    &.is-bottom-center {
+        position: absolute;
+        bottom: 3rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .input {
