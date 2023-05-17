@@ -13,7 +13,7 @@
     </a>
 
     <swiper
-        class="swiper"
+        class="swiper mt-negative-4"
         :options="swiperOptions"
     >
       <swiper-slide
