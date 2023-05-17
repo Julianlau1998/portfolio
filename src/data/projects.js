@@ -17,6 +17,11 @@ export const projects = [
             'Filter + Search Recipes',
             'Save favorite recipes',
             'Endless scrolling'
+        ],
+        technologies: [
+            'Vue.js',
+            'Go',
+            'PostgreSQL'
         ]
     },
     {
@@ -37,6 +42,11 @@ export const projects = [
             'Filtering by categories',
             'Article suggestions',
             'Social Sharing'
+        ],
+        technologies: [
+            'Nuxt',
+            'Directus',
+            'PostgreSQL'
         ]
     },
     {
@@ -57,6 +67,10 @@ export const projects = [
             'Calculate your returns',
             'Grphical visualization',
             'Set Language + Currency'
+        ],
+        technologies: [
+            'Vue.js',
+            'Bulma'
         ]
     },
     {
@@ -77,6 +91,10 @@ export const projects = [
             'Keep track of expenses',
             'Keep track of income',
             'Set language and country'
+        ],
+        technologies: [
+            'Vue.js',
+            'Bulma'
         ]
     },
     {
@@ -97,6 +115,11 @@ export const projects = [
             'Measure typing speed',
             'Save personal records',
             'Compete with others'
+        ],
+        technologies: [
+            'Vue.js',
+            'Go',
+            'PostgreSQL'
         ]
     },
     {
@@ -117,6 +140,10 @@ export const projects = [
             'Import files',
             'Edit files',
             'Download files'
+        ],
+        technologies: [
+            'Vue.js',
+            'Bulma'
         ]
     }
 ]

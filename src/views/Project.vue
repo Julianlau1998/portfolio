@@ -6,58 +6,37 @@
     <p>
       {{ project.description }}
     </p>
+    <Chips :items="project.technologies" />
 
-    <a :href="`${project.link}`" class="button is-primary mt-5">
+    <a :href="`${project.link}`" class="button is-primary mt-1">
       Open app
       <i class="fas fa-arrow-right ml-3 mr-1 mt-1"></i>
     </a>
 
-    <swiper
-        class="swiper mt-negative-4"
-        :options="swiperOptions"
-    >
-      <swiper-slide
-          v-for="(image, i) in project.images"
-          :key="i"
-          :watchSlidesProgress="true"
-      >
-        <img
-            class="image is-medium is-border-radius-10 has-border-white is-margin-auto mt-6 has-ipad-frame"
-            :src="image" :alt="`Example Screen shot of the App ${project.title}`"
-        >
-      </swiper-slide>
-    </swiper>
-    <div class="swiper-button-prev is-top" slot="button-prev"></div>
-    <div class="swiper-button-next is-top" slot="button-next"></div>
-
-    <div v-if="project.playLink.length" class="mt-5">
-      <a :href="`${project.playLink}`" target='_blank'>
-        <img class="is-badge google" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
-      </a>
-      <a :href='`${project.appleLink}`' target='_blank'>
-        <img class="is-badge apple" alt='Get it on the App Store' src='/img/appStoreBadge.svg'/>
-      </a>
-    </div>
-    <a class="mx-4" :href="project.githubLink" target='_blank'>
-      <img
-          src="/img/socials/github.svg"
-          class="is-socials-icon is-big mt-4 ml-5"
-          :class="{'mt-6 mr-5' : !project.playLink.length}"
-      />
-    </a>
+    <Swiper
+        :swiper-options="swiperOptions"
+        :project="project"
+    />
+    <Links
+        :play-link="project.playLink"
+        :apple-link="project.appleLink"
+        :github-link="project.githubLink"
+    />
   </div>
 </template>
 
 <script>
 import { projects } from '@/data/projects'
-import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
-import 'swiper/css/swiper.css'
+import Chips from "@/components/base/Chips"
+import Swiper from "@/components/base/Swiper"
+import Links from "@/components/base/Links"
 
 export default {
   name: "ProjectView",
   components: {
+    Chips,
     Swiper,
-    SwiperSlide
+    Links
   },
   data () {
     return {
