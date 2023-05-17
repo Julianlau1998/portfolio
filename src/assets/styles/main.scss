@@ -5,6 +5,7 @@
 @import './settings.scss';
 @import './swiper.scss';
 @import './contact.scss';
+@import './animations.scss';
 @import '~bulma';
 
 
@@ -144,6 +145,11 @@ select {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2.2rem;
+    -webkit-animation: color_change 1.5s infinite alternate;
+    -moz-animation: color_change 1.5s infinite alternate;
+    -ms-animation: color_change 1.5s infinite alternate;
+    -o-animation: color_change 1.5s infinite alternate;
+    animation: color_change 1.5s infinite alternate;
 }
 
 .input {

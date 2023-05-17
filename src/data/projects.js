@@ -12,6 +12,7 @@ export const projects = [
         link: 'https://recipe-search.com/',
         playLink: 'https://play.google.com/store/apps/details?id=com.recipe_finder_jl.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1',
         appleLink: 'https://apps.apple.com/ch/app/recipe-finder-cookbook/id1662386400',
+        githubLink: 'https://github.com/Julianlau1998/RecipeFinder',
         items: [
             'Filter + Search Recipes',
             'Save favorite recipes',
@@ -31,6 +32,7 @@ export const projects = [
         link: 'https://how-works.com/',
         playLink: '',
         appleLink: '',
+        githubLink: 'https://github.com/Julianlau1998/how_does_it_work',
         items: [
             'Filtering by categories',
             'Article suggestions',
@@ -50,6 +52,7 @@ export const projects = [
         link: 'https://etf-calculator.netlify.app/',
         playLink: 'https://play.google.com/store/apps/details?id=app.netlify.etf_calculator.twa',
         appleLink: 'https://apps.apple.com/ch/app/pro-etf-sparplan-rechner/id6443647215',
+        githubLink: 'https://github.com/Julianlau1998/ETF-Calculator',
         items: [
             'Calculate your returns',
             'Grphical visualization',
@@ -69,6 +72,7 @@ export const projects = [
         link: 'https://track-finances.netlify.app/',
         playLink: 'https://play.google.com/store/apps/details?id=app.finances_tracker_lite.com',
         appleLink: 'https://apps.apple.com/ch/app/pro-finances-tracker/id6444588196',
+        githubLink: 'https://github.com/Julianlau1998/finance_tracker',
         items: [
             'Keep track of expenses',
             'Keep track of income',
@@ -88,6 +92,7 @@ export const projects = [
         link: 'https://alphabet-typer.com/',
         playLink: 'https://play.google.com/store/apps/details?id=com.alphabet_typer.app',
         appleLink: 'https://apps.apple.com/ch/app/type-the-alphabet/id1610788763',
+        githubLink: 'https://github.com/Julianlau1998/alphabet_typer_backend',
         items: [
             'Measure typing speed',
             'Save personal records',
@@ -107,6 +112,7 @@ export const projects = [
         link: 'https://edit-txt.netlify.app/',
         playLink: 'https://play.google.com/store/apps/details?id=app.txt_editor_jl.com',
         appleLink: 'https://apps.apple.com/ch/app/pro-txt-editor/id6447758040',
+        githubLink: 'https://github.com/Julianlau1998/text_editor',
         items: [
             'Import files',
             'Edit files',

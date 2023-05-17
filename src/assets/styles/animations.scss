@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+@-webkit-keyframes color_change {
+  from { color: white; }
+  to { color: $third; }
+}
+@-moz-keyframes color_change {
+  from { color: white; }
+  to { color: $third; }
+}
+@-ms-keyframes color_change {
+  from { color: white; }
+  to { color: $third; }
+}
+@-o-keyframes color_change {
+  from { color: white; }
+  to { color: $third; }
+}
+@keyframes color_change {
+  from { color: white; }
+  to { color: $third; }
+}

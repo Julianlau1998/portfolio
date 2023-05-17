@@ -1,10 +1,4 @@
-form {
-  margin-top: 16.5rem;
-}
-
 #contact {
-  position: fixed;
-  bottom: 2rem;
   margin: 0 auto;
   left: 50%;
   -ms-transform: translateX(-50%);
@@ -22,20 +16,8 @@ form {
   color: #94a8bd;
 }
 
-#mail-adress {
-  position: relative;
-  top: -14rem;
-}
-
-#mail {
-  position: relative;
-  top: -13rem;
-}
-
 #submit {
   height: 2.8rem;
   font-size: 1.3rem;
   padding: 0 1rem 0 1rem;
-  position: relative;
-  top: -11rem;
 }

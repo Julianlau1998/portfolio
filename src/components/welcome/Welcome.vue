@@ -4,10 +4,10 @@
     <h1 class="header is-size-1">
       Julian Lau
     </h1>
-    <h4 class="header is-size-5 mt-3">
+    <h4 class="header is-size-5 is-size-6-mobile mt-3 is-full-width">
       Web Developer
     </h4>
-    <i class="fas fa-arrow-down is-down-arrow" />
+    <i class="fas fa-arrow-down is-down-arrow is-pointer" @click="scrollDown" />
   </div>
 </template>
 
@@ -15,6 +15,11 @@
 import social from "@/components/base/Social"
 export default {
   name: "welcome_component",
-  components: { social }
+  components: { social },
+  methods: {
+    scrollDown () {
+      window.scrollTo({ top: 1000, behavior: "smooth"})
+    }
+  }
 }
 </script>
