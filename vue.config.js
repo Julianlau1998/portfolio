@@ -1,7 +1,7 @@
 module.exports = {
   pwa: {
-    name: '',
-    themeColor: '#2a343c',
+    name: 'Julian Lau',
+    themeColor: '#1a1c1e',
     msTileColor: '#1a1c1e',
     navigationColor: "#1a1c1e",
     navigationColorDark: "#1a1c1e",

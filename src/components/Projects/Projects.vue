@@ -15,6 +15,7 @@
         <Card :project="project" />
       </swiper-slide>
     </swiper>
+
     <div class="swiper-button-prev is-top-auto" slot="button-prev"></div>
     <div class="swiper-button-next is-top-auto" slot="button-next"></div>
   </div>
