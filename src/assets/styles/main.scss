@@ -37,6 +37,15 @@ html {
     &.secondary {
         background-color: $secondarySection !important;
     }
+    &.is-small {
+        display: none;
+    }
+    @media (max-width: 1000px) {
+        &.is-small {
+            min-height: 37vh;
+            display: block;
+        }
+    }
 }
 
 .modal {

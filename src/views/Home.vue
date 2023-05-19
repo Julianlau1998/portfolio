@@ -3,6 +3,7 @@
     <Welcome />
     <Projects />
     <Contact />
+    <div class="section is-small" />
   </div>
 </template>
 
