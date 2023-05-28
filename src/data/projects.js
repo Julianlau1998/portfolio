@@ -117,7 +117,7 @@ export const projects = [
             'Compete with others'
         ],
         technologies: [
-            'Vue.js',
+            'Nuxt',
             'Go',
             'PostgreSQL'
         ]
