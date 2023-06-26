@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-image">
-      <figure class="image is-4by3">
+      <figure class="image is-4by3 is-preview">
         <img :src="project.images[0]" alt="Placeholder image">
       </figure>
     </div>
