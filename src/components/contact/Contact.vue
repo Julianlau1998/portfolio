@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="columns is-contact-form">
-      <form action="https://formsubmit.co/jlauapps@gmail.com" method="POST" netlify>
+      <form action="https://formsubmit.co/jlauapps@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="https://julian-lau.netlify.app/">
         <input
