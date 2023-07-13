@@ -28,6 +28,9 @@
   &.is-preview {
     background-color: #1e1e1e;
   }
+  &.is-cursor-move {
+    cursor: grab;
+  }
   @media (max-width: 1100px) {
     &.has-ipad-frame {
       border-radius: 20px !important;

@@ -10,7 +10,7 @@
           :watchSlidesProgress="true"
       >
         <img
-            class="image is-medium is-border-radius-10 has-border-white is-margin-auto mt-6 has-ipad-frame"
+            class="image is-medium is-border-radius-10 has-border-white is-margin-auto mt-6 has-ipad-frame is-cursor-move"
             :src="image" :alt="`Example Screen shot of the App ${project.title}`"
         >
       </swiper-slide>
