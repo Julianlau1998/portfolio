@@ -107,7 +107,7 @@ export const projects = [
             '/img/alphabet/3.webp',
             '/img/alphabet/2.webp'
         ],
-        link: 'https://alphabettyper.netlify.app/',
+        link: 'https://alphabet-typer.com/',
         playLink: 'https://play.google.com/store/apps/details?id=com.alphabet_typer.app',
         appleLink: 'https://apps.apple.com/ch/app/type-the-alphabet/id1610788763',
         githubLink: 'https://github.com/Julianlau1998/alphabet_typer_backend',
